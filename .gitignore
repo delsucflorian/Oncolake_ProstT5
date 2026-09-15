@@ -233,12 +233,6 @@ data/alphafold/
 *.pkl
 models/
 
-# --- Outputs de runs (figures, logs, résultats intermédiaires) ---
-# On garde results/ trackée mais on ignore les fichiers dedans par défaut,
-# sauf ceux qu'on explicitement ajoute avec `git add -f`
-results/*
-!results/.gitkeep
-
 # --- OS / éditeurs ---
 # macOS
 .DS_Store
